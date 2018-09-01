@@ -2,8 +2,8 @@
 
 const express = require('express');
 const app = express();
-const mongoose = require('mongoose');
-mongoose.Promise = global.Promise;
+// const mongoose = require('mongoose');
+// mongoose.Promise = global.Promise;
 
 app.use(express.static('public'));
 
